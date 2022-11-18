@@ -58,7 +58,7 @@ def win():
         if symbols == ["X", "X", "X"]:
             print("Выиграл X!!!")
             return True
-        if symbols == ["0", "0", "0"]:
+        elif symbols == ["O", "O", "O"]:
             print("Выиграл 0!!!")
             return True
     return False
